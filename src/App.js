@@ -1,3 +1,4 @@
+import Card from './components/Card';
 import './styles/App.css';
 import 'font-awesome/css/font-awesome.min.css';
 
@@ -13,7 +14,7 @@ function App() {
           <h3>High Score: {highScore}</h3>
         </div>
       </header>
-      
+      <Card title="car"/>
       <footer>
         <a href="https://github.com/jcrisostomo1" rel="noreferrer" target="_blank"><i className="fa fa-github fa-lg"></i></a>
         <p>Made by: jcrisostomo1</p>

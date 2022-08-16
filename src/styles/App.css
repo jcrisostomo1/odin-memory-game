@@ -1,16 +1,35 @@
+* {
+	background-color: #333333;
+	margin: 0px;
+}
+
 header {
 	display: flex;
-	justify-content: space-evenly;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
-	padding: 10px;
+	color: #eeee;
+	gap: 5px;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .scoreboard {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
+	gap: 20px;
+	width: 100%;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	height: 200px;
+	width: 200px;
+	background-color: #eeee;
+	border-radius: 20px;
 }
 
 main {
@@ -28,10 +47,11 @@ footer {
 	font-size: 18px;
 	gap: 15px;
 	margin-top: auto;
-	padding: 10px
+	padding: 10px;
+	color: #eeee;
 }
 
 .fa-github {
-	color: black;
+	color: #eeee;
 	font-size: 24px;
 }
